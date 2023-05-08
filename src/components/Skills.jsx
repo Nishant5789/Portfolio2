@@ -50,7 +50,10 @@ export default function Skills() {
                         {skill.members.map((el, idx) => {
                           return (
                             <span key={idx}>
-                              
+                              <a
+                                rel="noreferrer"
+                                className="group relative flex justify-center"
+                              >
                                 <img
                                   src={el.icon}
                                   alt={el.name}
@@ -60,7 +63,7 @@ export default function Skills() {
                                 <span className="absolute bottom-10 scale-0 transition-all rounded bg-gray-800 p-2 text-xs text-white group-hover:scale-100 z-50">
                                   {el.name}
                                 </span>
-                            
+                              </a>
                             </span>
                           );
                         })}

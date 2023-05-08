@@ -21,12 +21,12 @@ const Home = () => {
               }}
             />
           </h2>
-          <p className="text-gray-300 text-xl md:text-2xl py-4 max-w-md">
+          <p className="text-gray-300 text-xl md:text-2xl py-2 max-w-md">
             Hello, I am Nishant Bhandari, passionate in problem solving by solution driven approach
           </p>
           <div>
             <Link to="contact" smooth>
-              <button className="group inline-flex items-center px-10 py-4 border border-transparent font-semibold rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+              <button className="group inline-flex items-center px-10 py-2 border border-transparent font-semibold rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                 Contact Me &nbsp;
                 <span className="group-hover:rotate-90 duration-300">
                   <FaArrowRight size={20} />
@@ -40,7 +40,7 @@ const Home = () => {
             loading="lazy"
             src="https://cdn.jsdelivr.net/gh/Nishant5789/My_Tech_Notes/asset/profile-pic (5).png"
             alt="developer"
-            className="m-5 mx-auto rounded-2xl w-full md:w-60 lg:w-64 xl:w-80"
+            className="my-2 mx-auto rounded-2xl w-full md:w-60 lg:w-64 xl:w-80"
           />
         </div>
       </div>

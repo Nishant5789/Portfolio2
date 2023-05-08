@@ -17,7 +17,7 @@ const Navbar = () => {
         <h2 className="text-5xl font-signature cursor-pointer"><Link to="home" smooth>Nishant</Link></h2>
       </div>
       <ul className="hidden md:flex">
-        {links.map((link) => {
+        {links.map((link) => { 
           return (
             <Link to={link.name} smooth key={link.id}>
               <li className="px-4 cursor-pointer text-sm lg:text-xl text-gray-400 capitalize font-semibold duration-200 hover:scale-105 hover:text-gray-200">

@@ -7,9 +7,9 @@ const Projects = () => {
   return (
     <section
       name="projects"
-      className="w-full min-h-screen py-20 backdrop-blur-lg"
+      className="w-full min-h-screen py-2 backdrop-blur-lg"
     >
-      <h2 className="text-white text-4xl mb-10 text-center">Projects</h2>
+      <h2 className="text-white text-4xl mb-5 text-center">Projects</h2>
       <div className="flex justify-center items-center">
         <ul
           role="list"
@@ -57,16 +57,7 @@ const Projects = () => {
           ))}
         </ul>
       </div>
-      <div className="w-full mt-10 grid">
-        <a
-          href="https://jashezan.github.io/Web-Projects/"
-          target="_blank"
-          rel="nreferrer"
-          className="mx-auto px-6 py-3 border border-transparent font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-        >
-          View More
-        </a>
-      </div>
+
     </section>
   );
 };

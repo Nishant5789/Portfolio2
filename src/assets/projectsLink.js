@@ -2,13 +2,13 @@ const projectslink = [
     {
       name: "CodeCollaB",
       picture: `https://cdn.jsdelivr.net/gh/Nishant5789/My_Tech_Notes/asset/codecollab.jpg`,
-      demo: "",
+      demo: "https://github.com/Nishant5789/CodeCollaB",
       code: "https://github.com/Nishant5789/CodeCollaB",
     },
     {
       name: "Flight booking",
       picture: `https://cdn.jsdelivr.net/gh/Nishant5789/My_Tech_Notes/asset/flight_booking.png`,
-      demo: "https://www.linkedin.com/posts/nishant-bhandari-193a83201_flightbooking-webapp-html-activity-7050887761230241792-SWbQ?utm_source=share&utm_medium=member_desktop",
+      demo: "https://youtu.be/Oow09B6bvP4?si=yckgHSTNiUhhRRRg",
       code: "https://github.com/Nishant5789/Flight_Booking_project",
     },
     {
@@ -19,8 +19,8 @@ const projectslink = [
     },
     {
         name: "chatapp",
-        picture: `https://cdn.jsdelivr.net/gh/Nishant5789/My_Tech_Notes/asset/chatapp.jpg`,
-        demo: "",
+        picture: `https://cdn.jsdelivr.net/gh/Nishant5789/My_Tech_Notes/asset//chatapp.jpg`,
+        demo: "https://github.com/Nishant5789/chatapp",
         code: "https://github.com/Nishant5789/chatapp",
     },
     {
@@ -34,3 +34,4 @@ const projectslink = [
   
   
   export default projectslink;
+
